@@ -1,0 +1,8 @@
+mutation createPhoto($options: PhotoOptions!) {
+  createPhoto(options: $options) {
+    url
+    state
+    score
+    id
+  }
+}

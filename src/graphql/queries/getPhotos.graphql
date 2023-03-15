@@ -1,0 +1,8 @@
+query getPhotos($options: getPhotosOptions = {sortBy: "newest"}) {
+  getPhotos(options: $options) {
+    url
+    state
+    score
+    id
+  }
+}
